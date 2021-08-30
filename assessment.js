@@ -35,7 +35,7 @@ assessmentButton.onclick = () => {
     // TODO ツイートエリアの作成
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
-    const hrefValue =
+        const hrefValue =
         'https//twitter.com/intent/tweet?button_hashtag=' +
         encodeURIComponent('あなたのいいところ') +
         '&ref_src=twsrc%5Etfw';
